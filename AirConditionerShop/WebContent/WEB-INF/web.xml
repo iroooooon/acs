@@ -33,6 +33,13 @@
   <!-- /디비 연결 정보 설정 -->
   
   <!-- 회원관리 -->
-  
+  <servlet>
+  	<servlet-name>MemberFrontController</servlet-name>
+  	<servlet-class>net.member.action.MemberFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MemberFrontController</servlet-name>
+  	<url-pattern>*.me</url-pattern>
+  </servlet-mapping>
   <!-- 회원관리 -->
 </web-app>
